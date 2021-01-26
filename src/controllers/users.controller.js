@@ -59,7 +59,7 @@ userCtrl.signin = passport.authenticate("local", {
 
 userCtrl.logout = (req, res) => {
   req.logout();
-  req.flash('success_msg','you are logged out now' );
+  req.flash('success_msg','tu estas logeado ahora' );
   res.redirect('/users/signin')
 };
 module.exports = userCtrl;
