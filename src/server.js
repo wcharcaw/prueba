@@ -61,5 +61,5 @@ app.use(require("./routers/users.routes"));
 
 //static files
 app.use(express.static(path.join(__dirname, "public")));
-
+//module exporta para se usando como una libreria
 module.exports = app;
